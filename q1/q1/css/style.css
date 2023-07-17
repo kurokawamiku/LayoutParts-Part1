@@ -1,27 +1,61 @@
 @charset "UTF-8";
 
-.inline-box{
+.inline--box{
   display: inline-block;
   width: 200px;
   padding: 20px 0;
   font-size: 16px;
   background: #fff;
 }
-
 .align--box{
- text-align: center;
+  text-align: center;
 }
-
 .text-align{
  display: inline-block;
  padding: 10px;
  background: #a4b3e9;
 }
-
 .margin{
-  text-align: center;
   margin: 0 auto;
   width: 90px;
   padding: 10px;
   background: #a4b3e9;
+}
+/* Q1-2 上下左右中央寄せ */
+.d--table{
+  display: table;
+}
+.d--cell{
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+.table {
+padding: 10px;
+ font-size: 16px;
+  background: #fff;
+  display: inline-block;
+}
+.d--flex{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.flex{
+  padding: 10px;
+  font-size: 16px;
+  background: #fff;
+}
+.container{
+  position: relative;
+}
+.position{
+  padding: 10px;
+  font-size: 16px;
+  background: #a4b3e9;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
 }
