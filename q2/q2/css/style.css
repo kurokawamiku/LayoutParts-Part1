@@ -1,2 +1,6 @@
 @charset "UTF-8";
 /* 回答はここから */
+.list-card{
+  display: block;
+  width: 200px;
+}

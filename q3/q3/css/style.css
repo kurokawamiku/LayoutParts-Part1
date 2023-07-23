@@ -1,1 +1,26 @@
 @charset "UTF-8";
+
+.cell--table{
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  font-size: 18px;
+}
+th,td{
+  border: 1px solid #000;
+  padding: 10px;
+}
+th{
+  background: #319c4a;
+  line-height: 26px;
+}
+td{
+  line-height: 22px;
+}
+table tr:nth-child(odd){
+  background: #bcbcbc;
+}
+table tr:nth-child(even){
+  background: #d5ffc7;
+}
+/* 線の色が変えられない */
