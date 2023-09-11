@@ -23,4 +23,7 @@ table tr:nth-child(odd){
 table tr:nth-child(even){
   background: #d5ffc7;
 }
+.table tr:last-child{
+  border-top: 1px double #ffffff;
+}
 /* 線の色が変えられない */

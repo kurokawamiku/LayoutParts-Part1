@@ -1,11 +1,17 @@
 @charset "UTF-8";
-.main--area{
+.main--box{
   display: table;
   width: 100%;
-  font-size: 18px;
+  margin-top: 50px;
 }
-/* box--1～３までの帯とbox--4～7までの帯が上と下に分けられない、横にきてしまう
-幅がpaddingをしてもきかない*/
+.main--area.main--box:last-child{
+  margin-top: 0;
+}
+.common--box{
+  display: table-cell;
+  padding: 20px;
+  text-align: center;
+}
 .box--1{
   width: 300px;
   background: #ff7b7b;

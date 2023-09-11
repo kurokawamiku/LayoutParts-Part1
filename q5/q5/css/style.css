@@ -1,1 +1,80 @@
 @charset "UTF-8";
+.item{
+  width: 65px;
+  color: #fff;
+  background: #00bbdd;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+.content{
+  display: flex;
+  flex-direction: row;
+}
+.content2{
+  display: flex;
+  flex-direction: row-reverse;
+}
+.content3{
+  display: flex;
+  flex-direction: column;
+}
+.content4{
+  display: flex;
+  flex-direction: column-reverse;
+}
+.flex-nowrap{
+  display: flex;
+  flex-wrap:nowrap;
+}
+.flex-rowwrap{
+  display: flex;
+  flex-flow: row wrap;
+}
+.flex-row-reverse{
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+.j-flex-start{
+  display: flex;
+  justify-content: flex-start;
+}
+.j-flex-end{
+  display: flex;
+  justify-content: flex-end;
+}
+.j-center{
+  display: flex;
+  justify-content: center;
+}
+.j-space-between{
+  display: flex;
+  justify-content: space-between;
+}
+.j-space-around{
+  display: flex;
+  justify-content: space-around;
+}
+.g-grid-template-columns{
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 200px 200px 200px;
+  margin-bottom: 20px;
+}
+.g-grid-template-columns2{
+  display: grid;
+  gap:10px;
+  grid-template-columns: auto auto auto;
+  margin-bottom: 20px;
+}
+.grid{
+  color: #fff;
+  background: #00bbdd;
+  padding: 10px;
+}
+.f-grid-rows{
+  display: grid;
+  gap: 10px;
+  grid-template-columns: auto auto auto;
+  grid-auto-rows: 190px;
+}
