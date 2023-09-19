@@ -88,14 +88,6 @@
   margin-top: 20px;
 }
 
-.flex--item {
-  width: 65px;
-  margin: 10px;
-  padding: 10px;
-  text-align: center;
-  background: #00bbdd;
-  color: #fff;
-}
 
 .grid--item {
   padding: 10px;

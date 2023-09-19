@@ -78,3 +78,22 @@
   grid-template-columns: auto auto auto;
   grid-auto-rows: 190px;
 }
+.grid--wrapper{
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+  gap: 10px;
+  margin-top: 20px;
+}
+.red--box{
+  background-color: #dd0700;
+  grid-column: 1/3;
+}
+.green--box{
+  background-color: #0bdd00;
+  grid-row: 2/4;
+}
+.yellow--box{
+  background-color: #d9dd00;
+  grid-column: 2/4;
+}
