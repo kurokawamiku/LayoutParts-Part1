@@ -1,6 +1,17 @@
 @charset "UTF-8";
 /* 回答はここから */
-.list-card{
-  display: block;
+.list{
+  display: flex;
+  justify-content: center;
+}
+
+.list--card{
+  list-style: none;
+  margin: 30px;
   width: 200px;
+  outline: 10px solid #655;
+  box-shadow: 0 0 0 6px #655;
+  border-radius: 13px;
+  padding: 10px;
+  background: #d2b48c;
 }
