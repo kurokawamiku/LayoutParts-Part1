@@ -26,4 +26,3 @@ table tr:nth-child(even){
 .table tr:last-child{
   border-top: 1px double #ffffff;
 }
-/* 線の色が変えられない */
